@@ -18,6 +18,7 @@ export interface AppOptions
 // Pass --options via CLI arguments in command to enable these options.
 const options: AppOptions = {
   logger: true,
+  trustProxy: true // Trust the proxy headers for NGINX (LB)
   // ...other options
 };
 
