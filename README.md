@@ -1,6 +1,3 @@
-Here's the complete Markdown file with all the API responses formatted:
-
-```markdown
 # Token Hero
 
 Token Hero is a Node.js-based service designed for managing and assigning unique tokens. This service allows users to create, assign, and manage a pool of tokens, ensuring that tokens can be easily allocated and released. The application uses Fastify for the web framework and Redis for token storage.
@@ -155,7 +152,7 @@ The API documentation is available at `/docs`. You can use Swagger UI to explore
 1. Start the application:
 
    ```bash
-   npm start
+   yarn start
    ```
 
 2. Access the API at `http://localhost:3000`.
