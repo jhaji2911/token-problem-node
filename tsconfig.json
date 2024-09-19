@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "skipLibCheck": true, //this helped us, bypass the node_modules type check
+    "moduleResolution":"Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".", // alright
+    "strict": false, // this helped us with goofy ness 
+    "outDir": "dist",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "tsc-alias": {
+    "verbose": false,
+    "resolveFullPaths": true
+  },
+  "paths": {
+    "*": ["node_modules/*"]
+  },
+  "include": ["./src/**/*.ts"],
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  }
+}
